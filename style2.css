@@ -94,3 +94,6 @@ span:hover{
 #cross{
     padding-left: 37pc;
 }
+.regform{
+    display: none;
+}
