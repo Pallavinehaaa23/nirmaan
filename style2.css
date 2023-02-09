@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    /* box-sizing: border-box; */
+    text-decoration: none;
+    list-style: none;
+}
+label.logo{
+    font-size: 35px;
+    font-weight: 500;
+    padding-left: 60px;
+    color: aliceblue;
+    line-height: 80px;
+}nav{
+    height: 80px;
+    width:100%;
+    position: sticky;
+    background-color: rgb(4, 70, 96);
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+    
+}
+nav a{
+    color: azure;
+    font-size: larger;
+}
+a:hover{
+    border:12px solid transparent;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+nav .menu{
+    font-size: larger;
+    line-height: 80px;
+    color: antiquewhite;
+    float: right;
+    margin-right: 40px;
+    display: none;
+    margin-right: 5px;
+    cursor:pointer;
+}
+.form{
+    text-align: center;
+    padding-top: 15px;
+    background-color: rgb(242, 246, 248);
+    border-radius: 5px;
+    /* box-shadow: 15px black; */
+    border:2px solid rgb(25, 24, 24); 
+    height: 17pc;
+    width:40pc;
+    margin-top: 35px;
+   margin-left: 25pc;
+}
+:placeholder-shown{
+    height: 1pc;
+    width:30pc;
+    padding: 4px;
+    background-color: rgb(240, 232, 232);
+    color: black;
+}
+#butn button{
+    margin-right: 24pc;
+    height: 30px;
+    width: 60px;
+    background-color: rgb(239, 11, 11);
+    color: aliceblue;
+    border-radius: 5px;
+    }
+    #butn button:hover{
+        background-color: rgb(17, 156, 17);
+        cursor: pointer;
+    }
+span{
+    color: blue;
+}
+span:hover{
+    cursor: pointer;
+    color: red;
+}
+.signin{
+    margin-right: 14pc;
+
+}
+
+#cross{
+    padding-left: 37pc;
+}
