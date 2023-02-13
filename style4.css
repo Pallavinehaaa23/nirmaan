@@ -1,0 +1,96 @@
+.regform{
+    position: absolute;
+    margin-top: 30px;
+    margin-bottom :50px; 
+    margin-left: 18pc;
+    width:55pc;
+    height:98pc;
+    box-shadow: 0px 5px 5px 0px rgb(81, 60, 60);
+    border-radius: 15px;
+     /* overflow: hidden;  */
+    /* background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg); */
+    
+}
+body{
+    background-image: url(https://images.pexels.com/photos/1172849/pexels-photo-1172849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 30;
+}
+ .regform form{
+    
+    /* z-index: 10;
+     inset: 4px;  */
+    padding: 60px 70px;
+    
+}  
+.regform h1{
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(4, 37, 46);
+     
+}
+.regform label{
+    display: inline-block;
+    width:120px;
+    font-size:medium;
+    text-align: left;
+    margin-left: 80px;
+     letter-spacing: 0.05em;
+      /* transition:1s;  */
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     text-transform: uppercase;
+
+}
+.regform input{
+    
+    padding: 15px 15px 7px;
+    background:rgb(239, 234, 234);
+    border: rgb(19, 1, 19);
+    border-width: 8px;
+     border-radius: 5px;
+    /* outline-width: 8px ;
+    outline-color: white; */
+    height: 30px;
+    width: 400px;
+}
+::select{
+    width:2000px;
+    height:40px;
+}
+.input-control.success input{
+    border-color: green;
+}
+.input-control.error input{
+    border-color: red;
+}
+.input-control.error{
+    color: red;
+    font-size: 9px;
+    height: 35px;
+}
+::placeholder{
+    height: 180px;
+    width: 1000px;
+    color:rgb(49, 6, 6);
+    font-size: medium;
+    letter-spacing: 0.05em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.regform button{
+    background-color: gray;
+    color: #0e3e41;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    margin-left: 13pc;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: #45f3ff;
+    color: #2a314f;
+}
