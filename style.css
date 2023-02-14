@@ -1,274 +1,80 @@
 *{
-    margin:0;
-    padding:0;
-    /* box-sizing: border-box; */
-    text-decoration: none;
-    list-style: none;
-}
-label.logo{
-    font-size: 35px;
-    font-weight: 500;
-    padding-left: 60px;
-    color: aliceblue;
-    line-height: 80px;
-}
-li .number{
-    
-    margin-right: 200px ;
-    background-color: rgb(138, 199, 212);
-    height :150px;
-    width:300px;
-    font-size: 60px;
-    padding-top:50px;
-}
-.no{
-    text-align: center;
-   padding-top:45pc;
-   padding-left: 25pc;
-   padding-right: 25pc;
-    display: flex;
-}
-h4{
-    color: black;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    font-size: 30px;
-    color: brown;
-    letter-spacing: 2px;
-    
-    font-family: 'Bitter', serif;
-    padding-right: 200px;
-    padding-top: 20px;
-    /* padding: 10px 30px; */
-    text-align: center;
-}
-#btn1{
-   
-    
-   margin-right: 20px;
-    /* border-radius: 10px; */
-   
-    background-color:green;
-    
-}
-#btn2{
-    margin-left: 5px;
-    
-    /* border-radius: 10px; */
-   
-    background-color:red;
-    
-}
-#btn3{
-   
-    /* border-radius: 2px; */
-    margin-left: 20px;
-    
-    background-color:rgb(64, 64, 224)
-    
-}
-button{
-    height: 48px;
-    width:110px;
-    border: 5px black;
-    border-radius: 10px;
-    color: azure;
-    padding: 5px;
-    font-size: medium;
-}
- .para1 h1{
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:xx-large;
-    height: fit-content;
-    
-    
-} 
-.para1{
-    padding-top:30px;
-    padding-bottom: 39px;
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
- .para1 p{
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: medium;
-    color: gray;
-  
-
-} 
-button:hover{
-   background-color: yellow;
-    color: black;
-    border: 2px solid black;
-    cursor: pointer;
-}
-.btns{
-    text-align: center;
-    justify-content: center;
-    padding-top: 27pc;
-   border-radius: 10px;
-}
-.maindiv{
-    width:100%;
-    height:500px;
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%,-50%);
-    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbq9tS36906qlKZDUIrbTVqCdQOvpZVAtS0w&usqp=CAU');
-    background-size: 100% 100%;
-    animation: slider 9s infinite linear;
-}
-  #img1{
-    margin-left: 26pc;
-    margin-bottom: 10pc;
-    border: 2px solid rgb(78, 75, 75);
-    border-radius: 6px;
-    box-shadow: 5px;
-}
-#img2{
-    margin-left: 5pc;
-    margin-bottom: 10pc;
-    border: 2px solid rgb(78, 75, 75);
-    border-radius: 6px;
-    box-shadow: 5px;
-}
-
-@keyframes slider{
-   0%{
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbq9tS36906qlKZDUIrbTVqCdQOvpZVAtS0w&usqp=CAU');}
-   35%{background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC-98pguMQdNeA2TMtQhsRBo_lSV1FkEcFFg&usqp=CAU');}
-   70%{background-image: url('https://previews.123rf.com/images/deimosz/deimosz1312/deimosz131200685/30720819-eye-donation-concept-present-by-eye-with-hand-in-donation-label-background.jpg');}
-}
-.show-links{
-    height: 0;
-}
 body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: azure;
 }
-nav{
-    height: 80px;
-    width:100%;
-    position: fixed;
-    background-color: rgb(4, 70, 96);
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-nav ul{
-    float: right;
-    margin-right: 40px;
-}
-nav li{
-    display: inline-block;
-    margin: 0 8px;
-    line-height: 80px;
-    
-}
-nav a{
-    color: azure;
-    font-size: larger;
-}
-a:hover{
-    border:12px solid transparent;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
-}
-nav .menu{
-    font-size: larger;
-    line-height: 80px;
-    color: antiquewhite;
-    float: right;
-    margin-right: 40px;
-    display: none;
-    margin-right: 5px;
-    cursor:pointer;
-}
-@media only screen and (max-width:1048px) {
-   label.logo{
-    font-size: 32px;
-    padding-left: 60px;
-   }
-    nav ul{
-        margin-right: 20px;
-    }
-   nav a{
-    font-size: 17px;
-   }
-   
-   }
-   @media only screen and (max-width:1240px){
-    li .number{
-       
-        height :120px;
-        width:250px;
-        margin-right:180px;
-    }
-    .no{
-        text-align: center;
-       padding-left: 15pc;
-       padding-right: 5pc;
-      
-   }
-}
-   @media only screen and (max-width:940px){
-    li .number{
-       
-        height :90px;
-        width:180px;
-        margin-right:180px;
-    }
-    .no{
-        text-align: center;
-       padding-left: 10pc;
-       padding-right: 1pc;
-      
-   }
-   }
-   @media only screen and (max-width:740px){
-    .no{
-        display: block;
-        padding-left: 30px;
-        padding-right: 5px;
-    }
-   button{
-    display: block;
-    
-   }
-   .btns{
-    padding-top: 22pc;
-    padding-left: 180px;
 
-   }
-   }
-   @media only screen and (max-width:900px) {
-    nav .menu{
-        display: block;
-        color: aliceblue;
-        padding-right: 40px;
-    }
-    nav .menu:hover{
-        border: 1px solid transparent;
-        color:beige;
-    }
-    nav ul{
-        position: fixed;
-        width:100%;
-        height: 100vh;
-        background-color: grey;
-        top:80px;
-        left: 0;
-        text-align: center;
-       
-    }
-    nav li{
-        display: block;
-        margin: 50px 0;
-        width: fit-content;
-        line-height: 30px;
-        padding: 0 100px;
-    }
-   nav a{
-    font-size: x-large;
-   }
-   }
+.container{
+    width: 750px;
+    height: 500px;
+    border: 1px solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 17px;
+    justify-content:space-around;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.first-row{
+     display: flex;
+}
+
+.owner{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.input-field{
+    border: 1px solid #999;
+}
+
+.input-field input{
+    width: 100%;
+    border:none;
+    outline: none;
+    padding: 10px;
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selection select{
+    padding: 10px 20px;
+}
+
+a{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+a:hover{
+    background-color: dodgerblue;
+}
+
+.cards img{
+    width: 100px;
+}
