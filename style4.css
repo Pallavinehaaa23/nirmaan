@@ -1,27 +1,34 @@
 .regform{
     position: absolute;
     margin-top: 30px;
-    margin-bottom :50px; 
+    margin-bottom :10pc; 
     margin-left: 18pc;
     width:55pc;
-    height:98pc;
+    height:116pc;
     box-shadow: 0px 5px 5px 0px rgb(81, 60, 60);
     border-radius: 15px;
      /* overflow: hidden;  */
     /* background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg); */
+    background-color: rgb(163, 217, 204);
+    opacity: 0.82;
     
 }
+
+
 body{
-    background-image: url(https://images.pexels.com/photos/1172849/pexels-photo-1172849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-repeat: no-repeat;
+    background-image: url(https://images.pexels.com/photos/6745362/pexels-photo-6745362.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat; 
     background-size: cover;
-    z-index: 30;
+    
+    z-index:40;
 }
  .regform form{
     
     /* z-index: 10;
      inset: 4px;  */
     padding: 60px 70px;
+    /* background-color: rgb(168, 165, 168); */
+    z-index: 10;
     
 }  
 .regform h1{
@@ -41,16 +48,19 @@ body{
      letter-spacing: 0.05em;
       /* transition:1s;  */
      font-family:Georgia, 'Times New Roman', Times, serif;
+     font-weight: 500;
      text-transform: uppercase;
 
 }
-.regform input{
-    
+.input-control input:focus{
+    outline:0;
+}
+   .input-control input{
     padding: 15px 15px 7px;
     background:rgb(239, 234, 234);
     border: rgb(19, 1, 19);
     border-width: 8px;
-     border-radius: 5px;
+     border-radius: 10px;
     /* outline-width: 8px ;
     outline-color: white; */
     height: 30px;
@@ -66,11 +76,14 @@ body{
 .input-control.error input{
     border-color: red;
 }
-.input-control.error{
+.input-control .error{
     color: red;
-    font-size: 9px;
-    height: 35px;
+    font-size: 20px;
+    text-align:right ;
+    margin-right: 120px;
+
 }
+
 ::placeholder{
     height: 180px;
     width: 1000px;
@@ -81,16 +94,21 @@ body{
     
 }
 .regform button{
-    background-color: gray;
-    color: #0e3e41;
+    background-color: rgb(137, 86, 245);
+    letter-spacing: 2px;
+    border: 2px solid transparent;
+    box-shadow: 0 3px 3px 0solid black;
+    color: white;
     border-radius: 10px;
     height: 40px;
     width: 100px;
-    margin-left: 13pc;
+    margin-left: 20pc;
 
 }
-button:hover{
+.regform button:hover{
     cursor: pointer;
-    background-color: #45f3ff;
-    color: #2a314f;
+    background-color: #099836;
+    color: #e8f0eb;
+    font-weight: 650;
+    /* box-shadow: 0 3px 3px 0 solid black; */
 }
