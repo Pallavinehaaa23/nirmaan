@@ -8,6 +8,327 @@
 
 </head>
 <body>
-    <h1>contact</h1>
+    
+    <head>
+        <title>
+            Contact us page
+        </title>
+        <link rel=""stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script scr="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapapcdn.com/bootstrap/3.4.1/js/bootstap.min.js"></script>
+        <script src="https://kit.fontawesome.com/079276c05a.js" crossorigin="anonymous"></script>
+    </head>
+    <style>
+
+        body{
+            font-family: 'Roboto', sans-serif;
+            background-image:url("https://i.pinimg.com/474x/45/05/bd/4505bd2c2ff7d815d109adcac50bbd53.jpg ");
+            background-size:1500px;;
+            color:#252424;  
+            background-repeat:no-repeat;
+          }
+           .heading{
+            text-align:center;
+            font-size:70px;
+            margin-bottom: 3px;
+
+           }
+
+            .button
+            {
+                margin-top: 0.5pc;
+                margin-bottom: 3pc;
+          background-color: #6e0db8;
+          border: none;
+color: white;
+padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 3pc;
+  width: 7pc;
+  font-size: 15px;
+  box-shadow: 0 5px 5px 0 black;
+  border-radius:20px;
+  letter-spacing: 2px;
+}
+.button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.button:active 
+{
+  background-color: rgb(128, 128, 128);
+  box-shadow: 0 5px #666666;
+  transform: translateY(4px);
+}
+
+        .col-md-45{
+                text-align: center;
+
+
+            } 
+            .icons{
+                text-align: center;
+            }
+        .icons i{
+
+                
+                font-size: 2pc;
+                color: #7c0956;
+                font-weight: bold;
+
+               
+            }
+            .icons a{
+              color: rgb(66, 62, 62);
+              font-weight: 700;
+
+            }
+
+       input 
+       {
+        height:35px;
+        width:450px;
+        border-radius: 15px;
+        border-style:solid;
+        padding-left: 15px;
+        border-width: 10%;
+        font-size: medium;
+        }
+        textarea
+        {
+            border-radius: 23px;
+            border-style: none;
+            padding-top: 5px;
+            padding-left: 25px;
+            border-style:solid;
+        }
+       label p{
+       text-align: left;
+       margin-left: 30pc;
+       font-weight: bold;
+       }
+      .container h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       }
+       #sub {
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 3pc;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 2px;
+        color: #4b4747;
+       }
+       label.logo{
+  font-size: 35px;
+  font-weight: 500;
+  padding-left: 60px;
+  color: aliceblue;
+  line-height: 80px;
+}nav{
+  height: 80px;
+  width:100%;
+  position: sticky;
+  background-color: rgb(4, 70, 96);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul{
+  float: right;
+  margin-right: 40px;
+}
+nav li{
+  display: inline-block;
+  margin: 0 8px;
+  line-height: 80px;
+
+}
+nav a{
+  color: azure;
+  font-size: larger;
+  text-decoration: none;
+}
+a:hover{
+  border:12px solid transparent;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+nav .menu{
+  font-size: larger;
+  line-height: 80px;
+  color: antiquewhite;
+  float: right;
+  margin-right: 40px;
+  display: none;
+  margin-right: 5px;
+  cursor:pointer;
+}
+/* end of nav bar */
+footer{
+    position: relative;
+    width:100%;
+    background: grey;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+  footer .icon,footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  footer .icon li,footer .menu li{
+    list-style-type: none;
+  }
+  footer .icon li a{
+    font-size: 2rem;
+    color: navy;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  footer .icon li a:hover{
+    transform: translateY(-10px);
+  }
+  footer .menu li a{
+    font-size: 1.2rem;
+    color: navy;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+  }
+  footer .menu li a:hover{
+    opacity: 1;
+    color: blanchedalmond;
+  }
+  footer p{
+    color: white;
+    margin: 7px 0;
+    text-align: center;
+    font-size: 1.1 rem;;
+  }
+
+       
+    </style>
+
+        <body>
+          <div>
+            <nav class="navbar">
+                <label for="logo" class="logo">
+                    <img src="./">
+                    </label>
+                  <ul class="links show-links">
+                      <li>
+        
+                            <a href="index.html">Home</a>
+                      </li>
+                      <li>
+                          <a href="about.html">About</a>
+                      </li>
+                      <li>
+                          <a href="register.html">Register</a>
+                      </li>
+                      <li>
+                          <a href="contact.html">Contact</a>
+                      </li>
+                  </ul>
+                  <label for="" class="menu">
+                     
+                          <i class="fa-solid fa-bars"></i>
+                   
+                  </label>
+              </nav> 
+        <div>
+            <div class="container">
+                <h2 class="heading">Contact Us</h2>
+                
+                <p id="sub" style="font-size: large;">WE ARE ALWAYS HERE TO HELP :)</p>
+                  
+                
+        </body>
+
+
+
+
+
+<div class="col-md-45">
+
+<form>
+
+       <!-- <h4>Name</h4>  -->
+
+ <label>
+    <p>Name:</p>
+    <input type="text" placeholder="Name" class="form-control">
+</label>
+
+
+
+<br>
+    <label>
+        <p>Email:</p>
+        <input type="email" name="email"  required="" placeholder="Your Email"  class="form-control">
+</label>
+
+<br>
+<label>
+    <!-- <b>Message:</b><br> -->
+     <p>Message:</p>
+     <textarea cols="60" rows="8" placeholder="Message" required""  class="form-control"></textarea>
+    <br>
+</label>
+
+
+<button class="button">Submit</button>
+
+</form>
+</div>
+
+
+<div class="icons">
+
+    <i class="fa-brands fa-whatsapp"></i>
+    <a >+9876543210</a>&nbsp;&nbsp;&nbsp;
+    <i class="fa-brands  fa-instagram"></i>
+    <a>_sole_reaper_</a>&nbsp;&nbsp;&nbsp;
+    <i class="fa-regular  fa-envelope"></i>
+    <a>asdfg@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <i class="fa-brands  fa-twitter"></i>
+    <a>twitter</a>&nbsp;&nbsp;&nbsp;
+    <i class="fa-brands fa-facebook"></i>
+    <a>facebook</a>
+
+</div>
+<footer>
+  <ul class="icon">
+  <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
+  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+  <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+
+  <li><a href="#"><i class="fa-sharp fa-solid fa-envelope"></i></a></li>
+  </ul>
+  <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="contact.html">Contact</a></li>
+
+  </ul>
+  <p>@Drishti Pvt.Limited | All rights Reserved</p>
+ </footer>
 </body>
 </html>
+
+</body>
+</html>
+
